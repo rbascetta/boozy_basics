@@ -1,0 +1,112 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+*= require rails_bootstrap_forms
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+ body {
+    background: url(backgroundPics/kisses.jpg) no-repeat center center fixed;
+    background-size: cover;
+  	background-size: 900px;
+	background-position: 230px 100px;
+	font-family: 'PT Serif', serif;
+	text-align: center;
+	
+}
+
+.drinks {
+	background: url() no-repeat;
+	background-repeat: no-repeat;
+	background-size: 600px;
+	font-size: 20px;
+}
+
+.layouts {
+	font-size: 15px;
+}
+
+.new_sessions {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+.new_users {
+    font-weight: bold;
+	font-size: 20px;
+	text-align: left;	
+}
+
+.new_drink {
+	font-weight: bold;
+	font-size: 35px;
+	text-align: left;	
+}
+
+.title {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+	color: red;
+}
+
+.title_text {
+	text-align: left;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.base {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+	color: red;
+}
+
+.base_text {
+	text-align: left;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.ingredients {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+	color: red;
+
+}
+
+.ingredients_text {
+	text-align: left;
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: left;
+}
+
+.directions {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+	color: red;
+
+}
+
+.directions_text {
+	text-align: left;
+	font-family: 'Didact Gothic', sans-serif;
+}
