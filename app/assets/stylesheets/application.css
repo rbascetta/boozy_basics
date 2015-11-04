@@ -34,3 +34,50 @@
 	text-align: left;	
 }
 
+.new_drink {
+	font-weight: bold;
+	font-size: 35px;
+	text-align: left;	
+}
+
+.title {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+}
+
+.title_text {
+	text-align: left;
+}
+
+.base {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+}
+
+.base_text {
+	text-align: left;
+}
+
+.ingredients {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+
+}
+
+.ingredients_text {
+	text-align: left;
+}
+
+.directions {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+}
+
+.directions_text {
+	text-align: left;
+	font-family: 'Comfortaa', Normal;
+}
