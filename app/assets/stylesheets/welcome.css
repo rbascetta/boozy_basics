@@ -1,0 +1,10 @@
+
+ body {
+    background: url(backgroundPics/kisses.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-size: 900px;
+	background-position: 230px 75px;
+	font-family: 'PT Serif', serif;
+	text-align: center;
+	
+}
