@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :drinks, only: [:new, :create, :destroy, :index, :edit, :show]
   resources :users, only: [:new, :create, :index]
   resources :sessions, only: [:new, :create, :destroy]
+  resources :home, only: [:index]
   get '/login', to: 'sessions#new'
   get '/drinks', to: 'drinks#index'
 

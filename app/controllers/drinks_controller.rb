@@ -30,21 +30,24 @@ class DrinksController < ApplicationController
   end
 end
 
-#  def update
-#     respond_to do |format|
-#       if @drink.update(drink_params)
-#         format.html { redirect_to @drink, notice: 'Drink updated' }
-#       else
-#         format.html { render :edit }
-        
-#       end
-#     end
-#   end
+  def edit
+  end
 
-#   def destroy
-#     @drink.destroy
-#     respond_to do |format|
-#       format.html { redirect_to drinks_url, notice: 'Drink deleted.' }
+ def update
+    respond_to do |format|
+      if @drink.update(drink_params)
+        format.html { redirect_to @drink, notice: 'Drink updated' }
+      else
+        format.html { render :edit }
+        
+      end
+    end
+  end
+
+  def destroy
+    @drink.destroy
+    respond_to do |format|
+      format.html { redirect_to drinks_url, notice: 'Drink deleted.' }
       
-#     end
- # end
+    end
+ end
