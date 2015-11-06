@@ -26,6 +26,3 @@
 * I want users to be able to search by base alcohol (vodka, whiskey etc.) and see a list of drink recipes that use that base.
 * I also want users to be able to pin drinks that they like to their "liquore library" which will be a place that holds all of their liked drinks.
 
-
-
-
