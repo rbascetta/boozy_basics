@@ -16,7 +16,7 @@ class DrinksController < ApplicationController
   def create
     @drink = Drink.new(drink_params)
 
-    respond_to do |format|
+      respond_to do |format|
       if @drink.save
         format.html { redirect_to @drink, notice: 'Concoction created!' }
       else
@@ -36,7 +36,7 @@ class DrinksController < ApplicationController
   end
 
   def update
-    @drink = Drink.find(params[:id])
+       @drink = Drink.find(params[:id])
     if @drink.update(drink_params)
       redirect_to @drink, notice: 'Drink updated'
     else

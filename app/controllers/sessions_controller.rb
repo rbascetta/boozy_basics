@@ -1,11 +1,13 @@
 class SessionsController < ApplicationController
 	def new
+	@bg = "signIn"
 	end
 
 	def create
+
 		user = User.find_by(email: params[:email])
 		if user && user.authenticate(params[:password])
-			session[:user_id] = user.id
+		    session[:user_id] = user.id
 			redirect_to home_index_path, notice: 'Logged in'
 		else
 			flash.now.alert = 'Invalid login - try again!'

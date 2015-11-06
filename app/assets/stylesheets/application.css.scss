@@ -18,20 +18,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.edit {
+	text-align: left;
+}
+
+
+
+.signIn {
+	background: url(image-path('backgroundPics/code.png')) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
 .new {
-	background: url(image-path('backgroundPics/lol.jpg')) no-repeat center center fixed;
+	background: url(image-path('backgroundPics/code.png')) no-repeat center center fixed;
 	background-size: cover;
 }
 
 .lol {
-	background: url(image-path('backgroundPics/alcohol2.jpg')) no-repeat center center fixed;
+	background: url(image-path('backgroundPics/cowboy.jpg')) no-repeat center center fixed;
 	background-size: cover;
 }
 
-.edit {
-	background: url(image-path('backgroundPics/struggle.jpg')) no-repeat center center fixed;
-	background-size: cover;
-}
 
  body {
     background: url(image-path('backgroundPics/kisses.jpg')) no-repeat center center fixed;
@@ -40,6 +48,7 @@
 	background-position: 230px 100px;
 	font-family: 'PT Serif', serif;
 	text-align: center;
+	padding: 15px;
 	
 }
 
@@ -48,11 +57,12 @@ label {
 	width: 115px;
 }
 
-.drinks {
+.drink {
 	background-size: 600px;
 	font-size: 20px;
-	margin-left: 20px;
-	max-width: 28%;
+	text-align: center;
+	width: 220px;
+
 }
 
 .layouts {

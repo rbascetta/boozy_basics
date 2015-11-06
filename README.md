@@ -1,28 +1,11 @@
-== README
+#Boozy Basics:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://peaceful-garden-3170.herokuapp.com/
 
-Things you may want to cover:
+This app provides the user with a space to create drinks and view previously made  drinks by other users; sort of like an alcohol recipe book.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://trello.com/b/P3vI79Rd/wdi-project-2-boozy-basics
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+

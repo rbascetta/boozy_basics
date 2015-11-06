@@ -14,22 +14,25 @@
 <body class="<%= @bg %>">
 
 
-<nav>
+<nav class="nav">
+  <div class="login">
+    <% if current_user %>
+      Cheers, <%= current_user.name %>
+      &nbsp; &nbsp; &nbsp;&nbsp;
+      <%= link_to 'Logout', session_path('dummy'), method: :delete %> &nbsp;
+    <% else %> 
+      <%= link_to 'Login |', login_path %>
+      Is your glass empty? <%= link_to 'Sign Up!', new_user_path %> &nbsp;
+      &nbsp;&nbsp; 
+    <% end %>
+  </div>
+  <% if current_user %>
+    <%= link_to 'Create Concoction |', new_drink_path %>
+  <% end %>
 
-<% if current_user %>
-  <%= link_to 'Create Concoction', new_drink_path %> &nbsp;
-<% end %>
   <%= link_to 'View Dranks', drinks_path %> &nbsp;
 
-  <% if current_user %>
-    Cheers, <%= current_user.name %>
-    &nbsp; | &nbsp; &nbsp;&nbsp;
-    <%= link_to 'Logout', session_path('dummy'), method: :delete %> &nbsp;
-  <% else %> 
-    <%= link_to 'Login', login_path %>
-    Is your glass empty? <%= link_to 'Sign Up!', new_user_path %> &nbsp;
-    &nbsp;&nbsp; &nbsp;&nbsp;
-  <% end %>
+  
 </nav>
 
 
