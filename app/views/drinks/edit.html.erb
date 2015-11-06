@@ -1,5 +1,25 @@
+<%= form_for @drink do |f| %>
 
-<%= render 'form' %>
+  <div class="field">
+    <%= f.label :base, "Base" %><br>
+    <%= f.text_field :base %>
+  </div>
+  <div class="field">
+    <%= f.label "Title" %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :ingredients, "Ingredients" %><br>
+    <%= f.text_field :ingredients %>
+  </div>
+  <div class="field">
+    <%= f.label :directions, "Directions" %><br>
+    <%= f.text_field :directions %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
 
 <%= link_to 'Show', @drink %> |
 <%= link_to 'Back', drinks_path %>

@@ -4,9 +4,20 @@
 
 <% @drinks.each do |d| %>
 <br> <div class="title"> Title: </div> <div class="title_text"> <%= d.name %> </div>
+
 <div class="base"> Base: </div> <div class="base_text"><%= d.base %> </div>  
+
 <div class="ingredients"> Indredients: </div> <div class="ingredients_text"> <%= d.ingredients %> </div>
+
 <div class="directions"> Directions: </div> <div class="directions_text"><%= d.directions %> </div> <br>
+
+<% if current_user %>
+	<div class="edit_drink">
+		<%= link_to "edit", edit_drink_path(d) %>
+		&nbsp;&nbsp;|&nbsp;&nbsp;
+		<%= link_to "delete", drink_path(d), method: :delete %>
+	</div>
+<% end %>
 
 <% end %>
 

@@ -18,7 +18,20 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.new {
+	background: url(image-path('backgroundPics/lol.jpg')) no-repeat center center fixed;
+	background-size: cover;
+}
 
+.lol {
+	background: url(image-path('backgroundPics/alcohol2.jpg')) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.edit {
+	background: url(image-path('backgroundPics/struggle.jpg')) no-repeat center center fixed;
+	background-size: cover;
+}
 
  body {
     background: url(image-path('backgroundPics/kisses.jpg')) no-repeat center center fixed;

@@ -11,12 +11,14 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="<%= @bg %>">
 
 
 <nav>
 
+<% if current_user %>
   <%= link_to 'Create Concoction', new_drink_path %> &nbsp;
+<% end %>
   <%= link_to 'View Dranks', drinks_path %> &nbsp;
 
   <% if current_user %>
