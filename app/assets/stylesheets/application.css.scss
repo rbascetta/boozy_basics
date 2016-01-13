@@ -18,10 +18,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 .edit {
 	text-align: left;
 }
-
 
 
 .signIn {
@@ -35,9 +35,59 @@
 	background-size: cover;
 }
 
-.lol {
-	background: url(image-path('backgroundPics/cowboy.jpg')) no-repeat center center fixed;
-	background-size: cover;
+h1 { font-size: 35pt; 
+	 font-family: 'Old Standard TT', serif;
+	 font-weight: bold;
+}
+
+
+.new_drink {
+	font-size: 28px;
+	text-align: left;
+	margin-top: 100px;
+	font-family: 'tahoma';
+}
+
+#create_drink {
+	padding-top: 10px;
+	font-family: 'tahoma';
+	font-style: bold;
+	font-size: 28px;
+
+}
+
+.created {
+	font-family: 'tahoma';
+	color: black;
+	font-size: 30px;
+	width: 600px;
+	background-color: #A2FF34;
+	outline: 1px;
+	border-radius: 10px;
+	opacity: 0.7;
+	margin: 0 auto;
+	margin-top: 200px;
+	text-align: center;
+}
+
+#box {
+	font-size: 28px;
+}
+
+.liquor_library {
+    opacity: 0.7;
+	font-size: 20px;
+	width: 600px;
+	// padding-top: 0.2px;
+	text-align: center;
+	outline: 1px;
+	border-radius: 10px; 
+	background-color: #A2FF34;
+	font-family: 'tahoma';
+	background-position: center;
+	float: none;
+    margin: 0 auto;
+    color: black;
 }
 
 
@@ -46,9 +96,10 @@
     background-size: cover;
   	background-size: 900px;
 	background-position: 230px 100px;
-	font-family: 'PT Serif', serif;
+	font-family: tahoma;
 	text-align: center;
 	padding: 15px;
+	color: black;
 	
 }
 
@@ -57,13 +108,14 @@ label {
 	width: 115px;
 }
 
-.drink {
-	background-size: 600px;
-	font-size: 20px;
-	text-align: center;
-	width: 220px;
 
-}
+// .show_drink {
+// 	background-size: 600px;
+// 	font-size: 20px;
+// 	text-align: center;
+// 	width: 220px;
+
+// }
 
 .layouts {
 	font-size: 15px;
@@ -83,61 +135,45 @@ label {
 	text-align: left;	
 }
 
-.new_drink {
-	font-weight: bold;
-	font-size: 20px;
-	text-align: left;
-	margin-left: 20px;	
-	margin-top: 100px;
-}
-
 .title {
 	font-weight: bold;
-	font-family: 'Orbitron', sans-serif;
-	text-align: left;
-	color: red;
+	text-align: center;
+	color: center;
 }
 
 .title_text {
-	text-align: left;
-	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
 }
 
 .base {
 	font-weight: bold;
-	font-family: 'Orbitron', sans-serif;
-	text-align: left;
-	color: red;
+	text-align: center;
 }
 
 .base_text {
-	text-align: left;
-	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
 }
 
 .ingredients {
 	font-weight: bold;
-	font-family: 'Orbitron', sans-serif;
-	text-align: left;
-	color: red;
+	text-align: center;
 
 }
 
 .ingredients_text {
-	text-align: left;
-	font-family: 'Didact Gothic', sans-serif;
-	text-align: left;
+	text-align: center;
+	font-family: 'tahoma', tahoma;
+	
 }
 
 .directions {
 	font-weight: bold;
-	font-family: 'Orbitron', sans-serif;
-	text-align: left;
-	color: red;
-
+	font-family: 'tahoma', tahoma;
+	text-align: center;
+	
 }
 
 .directions_text {
-	text-align: left;
-	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+	font-family: 'tahoma';
 }

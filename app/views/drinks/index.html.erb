@@ -1,8 +1,8 @@
-<div class="drink">
+<div class="liquor_library">
 
- <h1> Dranks </h1> 
+<h1> Liquor Library</h1> 
 
-<% @drinks.each do |d| %>
+<% @drinks.reverse_each do |d| %>
 <br> <div class="title"> Title: </div> <div class="title_text"> <%= d.name %> </div>
 
 <div class="base"> Base: </div> <div class="base_text"><%= d.base %> </div>  
@@ -20,6 +20,7 @@
 <% end %>
 
 <% end %>
+
 
 </div>
 

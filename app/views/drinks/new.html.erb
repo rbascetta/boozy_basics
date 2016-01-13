@@ -4,24 +4,27 @@
 <%= form_for @drink do |f| %>
   <div class="field">
     <%= f.label :title %>
-    <%= f.text_field :name %> 
+    <div id="box"><%= f.text_field :name %> 
+    </div>
   </div>  
   <div class="field">
     <%= f.label :base %>
-    <%= f.select :base, options_for_select(
+    <div id="box"><%= f.select :base, options_for_select(
     ["CHOOSE", "VODKA", "GIN", "RUM", "WHISKEY", "TEQUILA", "BRANDY", "SCOTCH"]) %> <br>
+    </div>
   </div> 
   <div class="field">
     <%= f.label :ingredients %>
-    <%= f.text_field :ingredients %> 
+    <div id="box"> <%= f.text_field :ingredients %> 
+    </div>
   </div> 
   <div class="field">
     <%= f.label :directions %>
-    <%= f.text_field :directions %> 
+    <div id="box"><%= f.text_field :directions %> 
+    </div>
   </div> 
-  <div class="actions"><%= f.submit %></div>
+  <div id="create_drink" class="actions"><%= f.submit %></div>
 <% end %>
 
 </div>
 
-</div>
