@@ -1,5 +1,5 @@
-<%= form_for @drink do |f| %>
 <div class="edit">
+<%= form_for @drink do |f| %>
 
   <div class="field">
     <%= f.label :base, "Base" %><br>
@@ -17,7 +17,7 @@
     <%= f.label :directions, "Directions" %><br>
     <%= f.text_field :directions %>
   </div>
-  <div class="actions">
+  <div id="bttn" class="actions">
     <%= f.submit %>
   </div>
 <% end %>

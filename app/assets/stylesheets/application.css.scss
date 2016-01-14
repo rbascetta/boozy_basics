@@ -36,8 +36,20 @@
 }
 
 h1 { font-size: 35pt; 
-	 font-family: 'Old Standard TT', serif;
+	 font-family: 'tahoma', serif;
 	 font-weight: bold;
+	 
+}
+
+.welcome {
+	width: 400px;
+	background-color: #A2FF34;
+	outline: 1px;
+	border-radius: 10px;
+	opacity: 0.7;
+	margin: 0 auto;
+	font-size: 70px;
+	// margin-top: 2px;
 }
 
 
@@ -66,7 +78,7 @@ h1 { font-size: 35pt;
 	border-radius: 10px;
 	opacity: 0.7;
 	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 350px;
 	text-align: center;
 }
 
@@ -108,6 +120,24 @@ label {
 	width: 115px;
 }
 
+.edit {
+	padding-top: 10px;
+	font-family: 'tahoma';
+	font-style: bold;
+	font-size: 28px;
+}
+
+#bttn {
+	padding-top: 10px;
+	font-family: 'tahoma';
+	font-style: bold;
+	font-size: 28px;
+
+}
+
+.nav {
+	text-align: center;
+}
 
 // .show_drink {
 // 	background-size: 600px;
